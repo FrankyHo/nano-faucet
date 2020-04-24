@@ -11,6 +11,7 @@ module.exports = () => {
   if (config.FAUCET_DRIPS_ETH) {
     api.use('/request/eth/:address', FaucetEthApi.request)
     api.use('/status/eth', FaucetEthApi.getStatus)
+    api.use('/request_light/eth/:address', FaucetEthApi.request_light)
   }
 
   if (config.FAUCET_DRIPS_ERC20) {

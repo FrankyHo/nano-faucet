@@ -9,6 +9,7 @@ module.exports = {
   ETH_NODE_URL: env('ETH_NODE_URL', 'https://ropsten.infura.io'),
   ETH_PRIVATE_KEY: env('ETH_PRIVATE_KEY', ''),
   ETH_PAYOUT: env('ETH_PAYOUT', '0'),
+  ETH_PAYOUT_VOTERS: env('ETH_PAYOUT_VOTERS', '0'),
 
   ERC20_CONTRACT_ADDRESS: env('ERC20_CONTRACT_ADDRESS', ''),
   ERC20_PRIVATE_KEY: env('ERC20_PRIVATE_KEY', ''),
